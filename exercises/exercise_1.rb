@@ -15,6 +15,12 @@ end
 
 def perform_operations(integer, float)
   # Your code here
+  add = integer + float
+  subtract = integer - float
+  multiply = integer * float
+  divide = integer / float
+
+  [add, subtract, multiply, divide]
 end
 
 # perform_operations(4, 2.0) == [6.0, 2.0, 8.0, 2.0] # => true
@@ -23,6 +29,11 @@ end
 
 def evaluate_logic(bool1, bool2)
   # Your code here
+  and_result = bool1 && bool2
+  or_result = bool1 || bool2
+  not_result = !bool1
+  not_result_2 = !bool2
+  [and_result, or_result, not_result, not_result_2]
 end
 
 # evaluate_logic(true, false) == [false, true, false, true] # => true
